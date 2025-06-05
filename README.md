@@ -8,6 +8,7 @@ This Python script implements polynomial regression for datasets with multiple i
 - Enter custom training data points via the console.
 - Compute the regression coefficients using least squares.
 - Predict the output `y` for a new input vector `x`.
+- the graph if the polynomial is 2
 
 ## 📌 Features
 
@@ -22,6 +23,7 @@ This Python script implements polynomial regression for datasets with multiple i
 2. **Data Collection**: User adds points of the form `[x1, x2, ..., xn, y]` where the last value is the target.
 3. **Training**: Builds the polynomial feature matrix and computes coefficients using least squares.
 4. **Prediction**: User inputs new values for `x`, and the script predicts the corresponding `y`.
+5. draw a graph using matplotlib libarie 
 
 ## 🚀 Usage
 
@@ -30,7 +32,7 @@ python polynomial_regression_multi_variable.py
 ```
 
 Example Interaction:
-Enter the degree of the regression polynomial: 2
+Enter the degree of the regression polynomial: 3
 Enter the 2 values for point 1 (separated by space): 1 2 10
 Type 's' to stop or any other key to continue:
 Enter the 2 values for point 2 (separated by space): 2 3 20
@@ -47,7 +49,7 @@ Result: y = 37.00
 Install dependencies (if needed):
 
 ```bash
-pip install numpy```
+pip install numpy matplotlib```
 
 📁 File Structure
 ├── polynomial_regression_multi_variable.py
